@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+.con{
+    padding: 0 60px;
+    box-sizing: border-box;
+    margin-bottom: 160px;
+    .title{
+        margin-top: 260px;
+        h1{
+            font-size: 160px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            color: #0037FF;
+        }
+    }
+    .menu{
+        ul{
+            display: flex;
+            margin-top: 30px;
+            li{
+                transition: 0.5s;
+                margin-right: 15px;
+                padding: 20px 30px;
+                border: 1px solid #000;
+                border-radius: 100px;
+                a{
+                    font-size: 20px;
+                }
+            }
+            li.on{
+                background-color: #0037FF;
+                border: 1px solid #0037FF;
+                transition: 0.5s;
+                a{color: #fff;}
+            }
+        }
+    }
+    .item-wrap{
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        .item{
+            margin-bottom: 65px;
+            width: 592px; height: 592px; 
+            overflow: hidden;
+            position: relative;
+            .info-txt{
+                position: absolute;
+                span{
+                    mix-blend-mode: difference;
+                    color: #fff;
+                }
+            }
+        }
+        .item:hover{
+            a{
+                img{
+                    // transition: 0.5s;
+                    transition-property: all;
+                    transition-duration: 1s;
+                    transform: scale(1.2);
+                    -webkit-filter: blur(3px);
+                    filter: blur(3px);
+                }
+            }
+        }
+    }
+}
+
+.grid-item {
+    margin: 30px; /* 적절한 여백 크기를 설정하세요 */
+  }

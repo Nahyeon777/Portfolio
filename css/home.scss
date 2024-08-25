@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body {
+    overflow: hidden;
+    height: 100%;
+  }
+
+// .sns{
+//     position: absolute;
+//     padding-top: 385px;
+//     ul{
+//         padding-left: 60px;
+//         li{
+//             // transition: 0.5s;
+//             transition-property: all;
+//             transition-duration: 1s;
+//             display: flex;
+//             margin-bottom: 25px;
+//             .sns-box{
+//                 width: 10px; height: 10px;
+//                 rotate: 45deg;
+//                 margin-top: 4px;
+//                 margin-right: 6px;
+//                 background: #C4C9DD;
+//             }
+//             // .sns-box::before{
+//             //     content: "";
+//             //     width: 92px;
+//             //     height: 1px;
+//             //     background: #0037FF;
+//             // }
+//             a{
+//                 color: #C4C9DD;
+//                 font-size: 16px;
+//                 font-family: "Montserrat", sans-serif;
+//             }
+//         }
+//         li:hover{
+//             transition: 0.5s;
+//             padding-left: 50px;
+//             .sns-box{
+//                 transition: 0.5s;
+//                 background: #0037FF;
+//             }
+//             a{
+//                 transition: 0.5s;
+//                 color: #0037FF;
+//                 font-weight: 600;
+//             }
+//         }
+//     }
+// }
+
+.bg{
+    width: 100%;
+    // position: absolute;
+    .ver-txt{
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .im{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        // z-index: 1;
+    }
+    .bg-img{
+        margin-top: -87px;
+        z-index: -1;
+        width: 100%;
+    }
+}
+
+.footer{
+    position: absolute;
+}

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.con {
+  padding: 0 60px;
+  box-sizing: border-box;
+  margin-bottom: 160px;
+}
+.con .title {
+  margin-top: 260px;
+}
+.con .title h1 {
+  font-size: 160px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #0037FF;
+}
+.con .menu ul {
+  display: flex;
+  margin-top: 30px;
+}
+.con .menu ul li {
+  transition: 0.5s;
+  margin-right: 15px;
+  padding: 20px 30px;
+  border: 1px solid #000;
+  border-radius: 100px;
+}
+.con .menu ul li a {
+  font-size: 20px;
+}
+.con .menu ul li.on {
+  background-color: #0037FF;
+  border: 1px solid #0037FF;
+  transition: 0.5s;
+}
+.con .menu ul li.on a {
+  color: #fff;
+}
+.con .item-wrap {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.con .item-wrap .item {
+  margin-bottom: 65px;
+  width: 592px;
+  height: 592px;
+  overflow: hidden;
+  position: relative;
+}
+.con .item-wrap .item .info-txt {
+  position: absolute;
+}
+.con .item-wrap .item .info-txt span {
+  mix-blend-mode: difference;
+  color: #fff;
+}
+.con .item-wrap .item:hover a img {
+  transition-property: all;
+  transition-duration: 1s;
+  transform: scale(1.2);
+  filter: blur(3px);
+}
+
+.grid-item {
+  margin: 30px; /* 적절한 여백 크기를 설정하세요 */
+}/*# sourceMappingURL=work.css.map */

@@ -1,0 +1,28 @@
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+.bg {
+  width: 100%;
+}
+.bg .ver-txt {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.bg .im {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+.bg .bg-img {
+  margin-top: -87px;
+  z-index: -1;
+  width: 100%;
+}
+
+.footer {
+  position: absolute;
+}/*# sourceMappingURL=home.css.map */
